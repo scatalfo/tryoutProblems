@@ -23,9 +23,7 @@ public class InsideOutside {
             insideCircles.clear();
             outsideCircles.clear();
             String[] params = s.nextLine().split(" ");
-            System.out.println(Arrays.toString(params));
             interestDisk = Integer.parseInt(params[1]) - 1;
-            System.out.println(interestDisk);
             numCircles = Integer.parseInt(params[0]);
             String[] circleStr;
             for(int j = 0; j < numCircles; j++) {
@@ -47,7 +45,7 @@ public class InsideOutside {
                     if(centerDist - circles.get(i).get(2) >= circles.get(interestDisk).get(2)) {
                         outsideCircles.add(i + 1);
                     }
-                    System.out.println((centerDist + circles.get(i).get(2)) + " " + circles.get(interestDisk).get(2));
+//                    System.out.println((centerDist + circles.get(i).get(2)) + " " + circles.get(interestDisk).get(2));
                 }
             }
             
