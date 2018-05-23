@@ -14,7 +14,7 @@ import java.io.*;
  *
  * @author Varun Jindal
  */
-public class ProblemsVarun {
+public class Combination {
 
     /**
      * @param args the command line arguments
